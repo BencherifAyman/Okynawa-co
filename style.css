@@ -1,0 +1,239 @@
+
+body{
+    background-image : url("image/fond.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    color:#3939D6;
+
+}
+
+div.head
+{
+    background-color: #ecc1f2;
+    display: flex;
+    font-size: 100%;  
+}
+
+@media screen and (max-width: 980px){/*de 1px à 980px */ 
+  div.head
+    {
+      background-color: #ecc1f2;
+      display: flex;
+      font-size: 40%;
+                  
+     }   
+}
+@media screen and (min-width: 981px){ /* de l'infini à 981px */
+  div.head
+    {
+      background-color: #ecc1f2;
+      display: flex;
+      font-size: 55%;
+                  
+     }   
+}
+
+ 
+li.menu-head /*  permet d'aligner le menu en haut de page*/
+{
+    display:inline-block;
+    text-decoration: none;
+    margin-left:15em;
+    margin-top:7em;
+    margin-bottom: 7em;
+    height: 10%;
+    
+
+}
+
+
+li{
+    list-style:inside url(image/sakura.png);
+     flex-direction: row;
+     font-size: 100%;
+
+
+}
+div.centre-page /* permet de faire un bloc flotant à droite du menu*/
+{
+   
+    
+    
+   display: flex;
+   padding: 6px;
+   font-size:100%;
+   margin: 6px;
+
+  
+    
+
+}
+
+
+div.menu-gauche
+  
+{
+    background-color: orange;
+    width: 60%;
+    background-color: #b3b3ff;
+    text-align: left;
+    opacity:0.85;
+    margin:10px;
+    font-size: 2em;
+
+
+}
+
+li.menu-nav
+{
+
+ list-style-position: inside;
+ list-style-type: none;
+ 
+
+
+}
+
+div.centre
+{
+    
+    text-align: left;
+    background-color: #b3b3ff;
+    opacity:0.85;
+    margin:10px;   
+   }
+ a:hover /*Apparence au survol des liens*/
+ {
+     text-decoration: none;
+     color:#9c01b2 ;
+     background-color: #9898E8;
+     transition: 0.7s;
+     border-radius: 99px 99px 99px;
+
+ }
+ a /*Apparence au survol des liens*/
+ {
+     text-decoration: none;
+     color:#3939D6;
+
+ }
+
+div.menu-droit
+{
+   
+    
+    width: 100%;
+    height: auto;
+    background-color: #b3b3ff;
+    opacity:0.85;
+  margin:10px;
+  text-align: center
+}
+h2{
+    text-align: center;
+    color:#3939D6;
+   
+    border-radius:10px;
+    box-shadow: 1px 3px 10px;
+
+}
+h1{
+    text-align: center;
+}
+h3
+{
+    text-align: left;
+  color:#3939D6;
+   
+    border-radius:10px;
+    box-shadow: 1px 3px 10px;
+
+   
+    
+}
+h4{
+     text-align: center;
+   color:#3939D6;
+   
+    border-radius:10px;
+    box-shadow: 1px 3px 10px;
+}
+div.centre-haut
+{
+    text-align: top;
+
+}
+div.image
+{
+
+    display: flex;
+    font-size: 100%;
+   align-items: center;
+    
+ 
+}
+div.separation-image{
+    padding: 25px;
+
+}
+button{
+    background-color: #ecc1f2;
+ }
+input{
+
+    background-color: #ecc1f2;
+    color:#3939D6;
+
+
+}
+
+span
+{
+   display: flex;
+  padding-left: 55px;
+  padding-top: 10px;
+ 
+}
+div.footer
+{
+    background-color: purple;
+    text-align: center;
+    background-color: #b3b3ff;
+    opacity:0.85;
+    padding: 10px;
+    
+  
+  
+      
+
+}
+
+div.classement
+{
+
+}
+
+table {
+
+   width:50em;
+    
+}
+div.bouton_inscription{
+   margin-left: 50%;
+}
+div.bouton_connexion{
+   margin-left: 50%;
+}
+div.bouton_contact{
+   margin-left: 50%;
+
+}
+textarea {
+background-color: #ecc1f2;
+ color:#3939D6;
+}
+h3{
+  text-align: center;
+}
+
